@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Viwes.Sobre"
+             Title="Sobre"
+             Background="{StaticResource Magenta}">
+    <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+        <Label Text="Sobre o App" 
+               FontSize="36" 
+               FontAttributes="Bold" 
+               TextColor="WhiteSmoke"
+               HorizontalOptions="Center"/>
+        <Frame BackgroundColor="{StaticResource Gray200}" Padding="20" CornerRadius="15">
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Emanuel M P Silva" FontSize="20" TextColor="Black"/>
+                <Label Text="Ano de desenvolvimento: 2025" FontSize="20" TextColor="Black"/>
+                <Label Text="Aplicativo Hotel .NET MAUI." FontSize="16" TextColor="Black"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

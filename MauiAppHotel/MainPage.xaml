@@ -15,6 +15,7 @@
 
             <Label
                 Text="Hello, World!"
+                FontFamily="RobotoBlackItalic"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -26,7 +27,7 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Avançar" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
